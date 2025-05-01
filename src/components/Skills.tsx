@@ -76,18 +76,19 @@ const Skills = () => {
 
         <div className="mt-16 text-center">
           <h3 className="text-xl font-semibold mb-8">Proficiency Levels</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: "JavaScript", level: 85 },
-              { name: "Python", level: 80 },
+             
               { name: "React", level: 75 },
-              { name: "Node.js", level: 70 }
+              { name: "Node.js", level: 70 },
+              { name: "JavaScript", level: 85 },
+              { name: "Python", level: 80 }
             ].map((skill, index) => (
               <div key={index} className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-100 dark:border-gray-700">
                 <div className="flex justify-between mb-2">
                   <span className="font-medium">{skill.name}</span>
                   <span className="text-tech-blue">{skill.level}%</span>
-                </div>
+                </div> */}
                 <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
                   <div 
                     className="bg-tech-gradient rounded-full h-2.5" 
