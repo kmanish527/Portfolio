@@ -74,9 +74,9 @@ const Skills = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <h3 className="text-xl font-semibold mb-8">Proficiency Levels</h3>
-          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
              
               { name: "React", level: 75 },
@@ -88,7 +88,7 @@ const Skills = () => {
                 <div className="flex justify-between mb-2">
                   <span className="font-medium">{skill.name}</span>
                   <span className="text-tech-blue">{skill.level}%</span>
-                </div> */}
+                </div>
                 <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
                   <div 
                     className="bg-tech-gradient rounded-full h-2.5" 
@@ -98,7 +98,7 @@ const Skills = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
