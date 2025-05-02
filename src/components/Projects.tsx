@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: "SAMAA",
       description: "A Music Streaming - App Made our own music api also integrated third party spotify api",
-      image: "/public/1706893949625.png",
+      image: "/1706893949625.png",
       tags: ["MongoDB", "Express", "React", "Node.js"],
       demoLink: "#",
       githubLink: "https://github.com/manishraj27/samaa-frontend.git",

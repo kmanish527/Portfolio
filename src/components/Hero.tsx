@@ -35,7 +35,7 @@ const Hero = () => {
                 asChild
                 className="bg-tech-gradient hover:opacity-90 transition-opacity text-white font-medium px-6 py-2"
               >
-                <a href="https://drive.google.com/file/d/1qbqEWFR_onTdOqhqFM6Mvs04FPilnkXO/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1z16X79Gp4sdTcXXJ2Gg-2e9WmVYwighR/view?usp=sharing">
                   Resume <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
               </Button>
