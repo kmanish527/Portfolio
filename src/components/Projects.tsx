@@ -5,38 +5,38 @@ import { Button } from '@/components/ui/button';
 
 const Projects = () => {
   const projects = [
+    // {
+    //   title: "Smart Student Portal",
+    //   description: "A comprehensive student management system with attendance tracking, grade management, and course registration features. Built with React and Node.js.",
+    //   image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    //   tags: ["React", "Node.js", "MongoDB", "Express"],
+    //   demoLink: "#",
+    //   githubLink: "#",
+    // },
     {
-      title: "Smart Student Portal",
-      description: "A comprehensive student management system with attendance tracking, grade management, and course registration features. Built with React and Node.js.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-      tags: ["React", "Node.js", "MongoDB", "Express"],
-      demoLink: "#",
-      githubLink: "#",
-    },
-    {
-      title: "AI Learning Assistant",
+      title: "AI Short video Generator",
       description: "A personalized learning app that uses AI to provide tailored study materials and practice problems for students. Implemented using Python and TensorFlow.",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-      tags: ["Python", "TensorFlow", "Flask", "React"],
+      tags: ["Nextjs", "Gemini ai", "Google cloud", "Javascript" , "Neon db"],
       demoLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/kmanish527/ai-short-video-generator",
     },
     {
-      title: "Campus Connect",
-      description: "A social networking platform specifically designed for college students to connect, share resources, and collaborate on projects. Built with MERN stack.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+      title: "SAMAA",
+      description: "A Music Streaming - App Made our own music api also integrated third party spotify api",
+      image: "/public/1706893949625.png",
       tags: ["MongoDB", "Express", "React", "Node.js"],
       demoLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/manishraj27/samaa-frontend.git",
     },
-    {
-      title: "CodeCollab",
-      description: "Real-time collaborative coding platform for students and mentors to work together on programming assignments. Features live code sharing and execution.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-      tags: ["Socket.io", "React", "Firebase", "CodeMirror"],
-      demoLink: "#",
-      githubLink: "#",
-    },
+    // {
+    //   title: "CodeCollab",
+    //   description: "Real-time collaborative coding platform for students and mentors to work together on programming assignments. Features live code sharing and execution.",
+    //   image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    //   tags: ["Socket.io", "React", "Firebase", "CodeMirror"],
+    //   demoLink: "#",
+    //   githubLink: "#",
+    // },
   ];
 
   return (
@@ -81,7 +81,7 @@ const Projects = () => {
                 </p>
                 
                 <div className="flex gap-3">
-                  <Button 
+                  {/* <Button 
                     variant="outline"
                     size="sm"
                     className="border-tech-blue text-tech-blue hover:bg-tech-blue/5"
@@ -90,7 +90,7 @@ const Projects = () => {
                     <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="h-4 w-4 mr-1" /> Demo
                     </a>
-                  </Button>
+                  </Button> */}
                   <Button 
                     variant="outline"
                     size="sm"
@@ -112,7 +112,7 @@ const Projects = () => {
             asChild
             className="bg-tech-gradient hover:opacity-90 transition-opacity"
           >
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/kmanish527" target="_blank" rel="noopener noreferrer">
               View All Projects <Github className="ml-2 h-4 w-4" />
             </a>
           </Button>

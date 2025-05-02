@@ -10,7 +10,7 @@ const Experience = () => {
       institution: "KL University",
       duration: "2021 - Present (3rd Year)",
       description: "Pursuing my Bachelor's degree with a focus on computer science and software development.",
-      achievements: ["CGPA: 8.5/10", "PeerMentor", "GDSC Team Member"]
+      achievements: ["CGPA: 8.63/10", "PeerMentor", "GDSC Team Member"]
     }
     
   ];
