@@ -5,7 +5,7 @@ Built with **React**, **Vite**, and **Tailwind CSS**, this site showcases my pro
 
 ## 📌 About Me
 
-I'm **K Manish**, a 3rd-year B.Tech Computer Science student at **K L University**.  
+I'm **K Manish**, a final year B.Tech Computer Science student at **K L University**.  
 - Peer Mentor at KL University  
 - Member of **Google Developer Student Club (GDSC)**  
 - Passionate about web development and problem-solving.
